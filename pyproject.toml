@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "voice-collection-telephony"
+version = "0.1.0"
+description = ""
+authors = ["tan-phung-ts <tan.phung@trustingsocial.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyaudio = "^0.2.14"
+pywave = "^0.5.0"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
